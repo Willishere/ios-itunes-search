@@ -15,6 +15,7 @@
 		9E65BD43231EFEC700F04711 /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E65BD42231EFEC700F04711 /* 1.txt */; };
 		9E65BD45231EFF7D00F04711 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65BD44231EFF7D00F04711 /* SearchResult.swift */; };
 		9E65BD47231F036F00F04711 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65BD46231F036F00F04711 /* ResultType.swift */; };
+		9E65BD49231F041B00F04711 /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65BD48231F041B00F04711 /* SearchResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9E65BD42231EFEC700F04711 /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
 		9E65BD44231EFF7D00F04711 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		9E65BD46231F036F00F04711 /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		9E65BD48231F041B00F04711 /* SearchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9E65BD30231EFDB500F04711 /* AppDelegate.swift */,
 				9E65BD32231EFDB500F04711 /* ViewController.swift */,
 				9E65BD44231EFF7D00F04711 /* SearchResult.swift */,
+				9E65BD48231F041B00F04711 /* SearchResultController.swift */,
 				9E65BD46231F036F00F04711 /* ResultType.swift */,
 				9E65BD34231EFDB500F04711 /* Main.storyboard */,
 				9E65BD37231EFDB600F04711 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				9E65BD33231EFDB500F04711 /* ViewController.swift in Sources */,
 				9E65BD45231EFF7D00F04711 /* SearchResult.swift in Sources */,
 				9E65BD31231EFDB500F04711 /* AppDelegate.swift in Sources */,
+				9E65BD49231F041B00F04711 /* SearchResultController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
