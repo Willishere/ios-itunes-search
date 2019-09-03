@@ -16,6 +16,8 @@
 		9E65BD45231EFF7D00F04711 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65BD44231EFF7D00F04711 /* SearchResult.swift */; };
 		9E65BD47231F036F00F04711 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65BD46231F036F00F04711 /* ResultType.swift */; };
 		9E65BD49231F041B00F04711 /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65BD48231F041B00F04711 /* SearchResultController.swift */; };
+		9E65BD4B231F1F6500F04711 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65BD4A231F1F6500F04711 /* SearchResultsTableViewController.swift */; };
+		9E65BD4D231F203800F04711 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65BD4C231F203800F04711 /* ResultsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		9E65BD44231EFF7D00F04711 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		9E65BD46231F036F00F04711 /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
 		9E65BD48231F041B00F04711 /* SearchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
+		9E65BD4A231F1F6500F04711 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		9E65BD4C231F203800F04711 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				9E65BD32231EFDB500F04711 /* ViewController.swift */,
 				9E65BD44231EFF7D00F04711 /* SearchResult.swift */,
 				9E65BD48231F041B00F04711 /* SearchResultController.swift */,
+				9E65BD4A231F1F6500F04711 /* SearchResultsTableViewController.swift */,
+				9E65BD4C231F203800F04711 /* ResultsTableViewCell.swift */,
 				9E65BD46231F036F00F04711 /* ResultType.swift */,
 				9E65BD34231EFDB500F04711 /* Main.storyboard */,
 				9E65BD37231EFDB600F04711 /* Assets.xcassets */,
@@ -150,6 +156,8 @@
 			files = (
 				9E65BD47231F036F00F04711 /* ResultType.swift in Sources */,
 				9E65BD33231EFDB500F04711 /* ViewController.swift in Sources */,
+				9E65BD4D231F203800F04711 /* ResultsTableViewCell.swift in Sources */,
+				9E65BD4B231F1F6500F04711 /* SearchResultsTableViewController.swift in Sources */,
 				9E65BD45231EFF7D00F04711 /* SearchResult.swift in Sources */,
 				9E65BD31231EFDB500F04711 /* AppDelegate.swift in Sources */,
 				9E65BD49231F041B00F04711 /* SearchResultController.swift in Sources */,
