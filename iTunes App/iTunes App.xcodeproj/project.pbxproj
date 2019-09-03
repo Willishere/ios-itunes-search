@@ -12,6 +12,9 @@
 		9E65BD36231EFDB500F04711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E65BD34231EFDB500F04711 /* Main.storyboard */; };
 		9E65BD38231EFDB600F04711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E65BD37231EFDB600F04711 /* Assets.xcassets */; };
 		9E65BD3B231EFDB600F04711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E65BD39231EFDB600F04711 /* LaunchScreen.storyboard */; };
+		9E65BD43231EFEC700F04711 /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E65BD42231EFEC700F04711 /* 1.txt */; };
+		9E65BD45231EFF7D00F04711 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65BD44231EFF7D00F04711 /* SearchResult.swift */; };
+		9E65BD47231F036F00F04711 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65BD46231F036F00F04711 /* ResultType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9E65BD37231EFDB600F04711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E65BD3A231EFDB600F04711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E65BD3C231EFDB600F04711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E65BD42231EFEC700F04711 /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
+		9E65BD44231EFF7D00F04711 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		9E65BD46231F036F00F04711 /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				9E65BD30231EFDB500F04711 /* AppDelegate.swift */,
 				9E65BD32231EFDB500F04711 /* ViewController.swift */,
+				9E65BD44231EFF7D00F04711 /* SearchResult.swift */,
+				9E65BD46231F036F00F04711 /* ResultType.swift */,
 				9E65BD34231EFDB500F04711 /* Main.storyboard */,
 				9E65BD37231EFDB600F04711 /* Assets.xcassets */,
 				9E65BD39231EFDB600F04711 /* LaunchScreen.storyboard */,
 				9E65BD3C231EFDB600F04711 /* Info.plist */,
+				9E65BD42231EFEC700F04711 /* 1.txt */,
 			);
 			path = "iTunes App";
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E65BD43231EFEC700F04711 /* 1.txt in Resources */,
 				9E65BD3B231EFDB600F04711 /* LaunchScreen.storyboard in Resources */,
 				9E65BD38231EFDB600F04711 /* Assets.xcassets in Resources */,
 				9E65BD36231EFDB500F04711 /* Main.storyboard in Resources */,
@@ -135,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E65BD47231F036F00F04711 /* ResultType.swift in Sources */,
 				9E65BD33231EFDB500F04711 /* ViewController.swift in Sources */,
+				9E65BD45231EFF7D00F04711 /* SearchResult.swift in Sources */,
 				9E65BD31231EFDB500F04711 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
