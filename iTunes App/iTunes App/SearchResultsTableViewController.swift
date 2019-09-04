@@ -9,12 +9,13 @@
 import UIKit
 
 class SearchResultsTableViewController: UITableViewController {
-
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     
-    }
+    
+
 
     let searchResultController = SearchResultController()
-    let resultType: ResultType?
+
     
     
     override func viewDidLoad() {
@@ -48,6 +49,9 @@ class SearchResultsTableViewController: UITableViewController {
 
         return cell
     }
+    private func updateDataSource(){
+        var sortedAndFilteredResults: [SearchResult]
+    }
 }
 
     
@@ -56,7 +60,19 @@ class SearchResultsTableViewController: UITableViewController {
         func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
             guard let searchTerm = searchBar.text else { return }
             
-            searchResultController.performSearch(with: searchTerm, resultType: ResultType){
+            var resultType: ResultType?
+            switch segmentedControl.selectedSegmentIndex {
+            case 1:
+                resultType = ResultType.software
+            case 2:
+                resultType = ResultType.movie
+            case 3:
+                resultType = ResultType.musicTrack
+            
+            default:
+                resultType = ResultType
+            }
+            searchResultController.performSearch(with: searchTerm, resultType: resultType!){
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
                 }
